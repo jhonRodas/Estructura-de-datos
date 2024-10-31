@@ -30,3 +30,8 @@ console.log (usuario)
 delete usuario.trabaja
 console.log(usuario)
 
+ console.log(usuario.hasOwnProperty(`nombre`))
+ console.log(usuario.hasOwnProperty(`apellido`))
+
+ usuario.saludar()
+ 
